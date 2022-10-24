@@ -1,8 +1,16 @@
-import './index.sass';
+import {Route, Routes} from 'react-router-dom';
+
+import LogIn from './components/LogIn';
+import SignUp from './components/SignUp';
 
 function App() {
   return (
-    <div className="App">
+    <div>
+      <Routes>
+        <Route path="/" element={<LogIn />} />
+        <Route path="/signup" element={<SignUp />} />
+        <Route path="/im" />        
+      </Routes>
     </div>
   );
 }

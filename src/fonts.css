@@ -1,0 +1,12 @@
+@font-face {
+    src: url('./content/Tinkoff Bank/Tinkoff Avatar.otf') format('truetype');
+	font-family: 'Tinkoff Avatar';
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+    src: url('./content/Tinkoff Bank/Tinkoff Sans.otf') format('truetype');
+	font-family: 'Tinkoff Sans';
+	font-weight: 400;
+	font-style: normal;
+}
