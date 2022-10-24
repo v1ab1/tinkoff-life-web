@@ -10,3 +10,9 @@
 	font-weight: 400;
 	font-style: normal;
 }
+@font-face {
+	src: url('./content/Neue Haas Unica/NeueHaasUnica-Medium.ttf') format('truetype');
+	font-family: 'Neue Haas Unica';
+	font-weight: 500;
+	font-style: normal;
+}
