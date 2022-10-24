@@ -5,8 +5,6 @@ import style from './Chat.module.sass';
 function Chat() {
     return (
       <div className={style.Chat}>
-        <Message />
-        <MyMessage />
       </div>
     );
   }
