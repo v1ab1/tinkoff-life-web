@@ -4,12 +4,7 @@ import { useState } from 'react';
 import style from './Login.module.sass';
 
 function LogIn() {
-  const {email, setEmail} = useState('');
-  const {password, setPassword} = useState('');
-  const {emailDirty, setEmailDirty} = useState(false);
-  const {passwordDirty, setPasswordDirty} = useState(false);
-  const {emailError, setEmailError} = useState('Почта не может быть пустая');
-  const {passwordError, setPasswordError} = useState('Пароль не может быть пустым');
+  const [data, setData] = useState({});
 
   return (
     <div className={style.loginWrapper}>
@@ -18,9 +13,20 @@ function LogIn() {
         <p>Пожалуйста, войдите в аккаунт</p>
       </div>
       <div>
-        {(emailDirty && emailError) && <div style={{color: 'red'}}>{emailError}</div>}
-        <input className="forms" type="email" placeholder="Почта" />
-        <input className="forms" type="password" placeholder="Пароль" />
+        <input 
+          value={data.email} 
+          onChange={e => setData({...data, email: e.target.value})} 
+          className="forms" 
+          type="email" 
+          placeholder="Почта" 
+        />
+        <input 
+          value={data.password}
+          onChange={e => setData({...data, password: e.target.value})}
+          className="forms" 
+          type="password" 
+          placeholder="Пароль" 
+        />
         <button type="submit">Войти</button>
         <Link to="/signup">
           <span>Зарегистрироваться</span>
@@ -30,4 +36,4 @@ function LogIn() {
   );
 }
   
-  export default LogIn;
+export default LogIn;
