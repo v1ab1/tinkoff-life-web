@@ -1,0 +1,60 @@
+.loginWrapper {
+  margin: auto auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 40vw;
+  text-align: center;
+  height: 100vh;
+}
+.loginWrapper a {
+  text-decoration: none;
+  color: black;
+}
+.loginWrapper div {
+  flex-direction: column;
+  display: flex;
+  margin: 10px;
+  justify-content: center;
+}
+.loginWrapper div h1 {
+  font-weight: 400;
+}
+.loginWrapper div p {
+  opacity: 0.5;
+  margin: 5px 0;
+  font-size: 14px;
+}
+.loginWrapper div input {
+  width: 85%;
+  height: 30px;
+  font-size: 24px;
+  margin: 5px auto;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 7px;
+  border: 1px solid #379afd;
+}
+.loginWrapper div input:focus {
+  outline: none;
+}
+.loginWrapper div button {
+  width: 91%;
+  height: 44px;
+  margin: 5px auto;
+  padding: 5px 10px;
+  cursor: pointer;
+  background: #379afd;
+  color: white;
+  border: 1px solid #379afd;
+  border-radius: 7px;
+}
+.loginWrapper div button:active {
+  background: white;
+  color: #379afd;
+}
+.loginWrapper div span {
+  padding: 10px 0;
+  opacity: 0.5;
+  cursor: pointer;
+}/*# sourceMappingURL=Login.module.css.map */

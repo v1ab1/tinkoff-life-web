@@ -1,0 +1,60 @@
+.signupWrapper {
+  margin: auto auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 40vw;
+  text-align: center;
+  height: 100vh;
+}
+.signupWrapper a {
+  text-decoration: none;
+  color: black;
+}
+.signupWrapper div {
+  flex-direction: column;
+  display: flex;
+  margin: 10px;
+  justify-content: center;
+}
+.signupWrapper div h1 {
+  font-weight: 400;
+}
+.signupWrapper div p {
+  opacity: 0.5;
+  margin: 5px 0;
+  font-size: 14px;
+}
+.signupWrapper div input {
+  width: 85%;
+  height: 30px;
+  font-size: 24px;
+  margin: 5px auto;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 7px;
+  border: 1px solid #379afd;
+}
+.signupWrapper div input:focus {
+  outline: none;
+}
+.signupWrapper div button {
+  width: 91%;
+  height: 44px;
+  margin: 5px auto;
+  padding: 5px 10px;
+  cursor: pointer;
+  background: #379afd;
+  color: white;
+  border: 1px solid #379afd;
+  border-radius: 7px;
+}
+.signupWrapper div button:active {
+  background: white;
+  color: #379afd;
+}
+.signupWrapper div span {
+  padding: 10px 0;
+  opacity: 0.5;
+  cursor: pointer;
+}/*# sourceMappingURL=SignUp.module.css.map */

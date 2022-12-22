@@ -1,0 +1,52 @@
+.Messages {
+  width: 402px;
+  overflow: hidden;
+  height: 100vh;
+  background: #FAFAFA;
+  flex-shrink: 0;
+  padding: 26px 0;
+}
+.Messages div:first-of-type {
+  display: flex;
+}
+.Messages div:first-of-type div {
+  overflow-x: scroll;
+  display: flex;
+}
+.Messages div:first-of-type div img {
+  margin: 0 8px;
+}
+.Messages div:first-of-type .vector:first-of-type {
+  transform: rotate(180deg);
+}
+.Messages div:first-of-type .vector {
+  margin: auto 15px;
+  width: 5px;
+}
+.Messages .searchWrapper {
+  display: flex;
+  margin: 36px 0 23px 0;
+}
+.Messages .searchWrapper input {
+  border: none;
+  background: white;
+  width: 100%;
+  border-radius: 50px;
+  padding: 15px 14px 15px 14px;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 20px;
+  letter-spacing: 0.05em;
+  color: black;
+}
+.Messages .searchWrapper input:focus {
+  outline: none;
+}
+.Messages .searchWrapper img {
+  opacity: 0.5;
+  margin: 0 33px 0 28px;
+  cursor: pointer;
+}
+.Messages div:first-of-type::-webkit-scrollbar {
+  display: none;
+}/*# sourceMappingURL=Messages.module.css.map */

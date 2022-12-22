@@ -1,0 +1,30 @@
+.message {
+  margin: 30px 0;
+  display: flex;
+  font-size: 14px;
+}
+.message * {
+  font-family: "Neue Haas Unica", system-ui, sans-serif;
+  font-weight: 500;
+}
+.message img {
+  width: 62px;
+  height: 62px;
+  padding: 0 13px;
+}
+.message div div:first-of-type {
+  padding: 5px 0 10px 0;
+  color: #7C7C7C;
+  line-height: 14px;
+  letter-spacing: 0.05em;
+}
+.message div div:last-of-type {
+  padding: 24px 14px 26px 31px;
+  background: white;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+  max-width: 550px;
+  line-height: 14px;
+  letter-spacing: 0.05em;
+}/*# sourceMappingURL=Message.module.css.map */
